@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs/>
+  <path d="M 70 50 H 430 A 70 70 0 0 1 500 120 V 430 A 70 70 0 0 1 430 500 H 70 A 70 70 0 0 1 0 430 V 120 A 70 70 0 0 1 70 50 Z M 50 151.25 V 398.75 A 45 45 0 0 0 95 443.75 H 405 A 45 45 0 0 0 450 398.75 V 151.25 A 45 45 0 0 0 405 106.25 H 95 A 45 45 0 0 0 50 151.25 Z" style="" bx:shape="frame 0 50 500 450 50 56.25 70 70 70 70 1@97498faf"/>
+  <rect style="" x="100" width="50" height="150" rx="25" ry="25"/>
+  <rect style="" x="350" width="50" height="150" rx="25" ry="25"/>
+  <rect x="48" y="165" width="404" height="50" style=""/>
+  <ellipse style="" cx="140" cy="275" rx="40" ry="40"/>
+  <ellipse style="" cx="140" cy="384" rx="40" ry="40"/>
+  <ellipse style="" cx="360" cy="275" rx="40" ry="40"/>
+  <ellipse style="" cx="360" cy="384" rx="40" ry="40"/>
+  <ellipse style="" cx="250" cy="275" rx="40" ry="40"/>
+  <ellipse style="" cx="250" cy="384" rx="40" ry="40"/>
+</svg>

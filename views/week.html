@@ -1,0 +1,54 @@
+<script src="assets/week.js"></script>
+
+<div id="page-004-week">    
+    <div id="weekPageContainer">
+        <div id="weekPageStatContainer" class="flexbox flexGap10" style="align-items: center;">
+            <button id="chartLastButton" class="clickable height100percent transparentButton width45px" onclick="changeDate(1)">
+                <object class="width20px" data-src="assets/img/icons/ArrowLeftSmall.svg"></object>
+            </button>
+            <div class="width100percent">
+                <canvas id="myChart"></canvas>
+                <input id="myChartMin" type="hidden" />
+                <input id="myChartMax" type="hidden" />
+                <input id="myChartAvg" type="hidden" />
+            </div>
+            <button id="chartNextButton" class="clickable height100percent transparentButton width45px" onclick="changeDate(-1)">
+                <object class="width20px" data-src="assets/img/icons/ArrowRightSmall.svg"></object>
+            </button>
+        </div>
+        <div id="weekPageConfigureContainer" class="flexbox" style="flex-direction: column; gap: 30px; margin-top: 30px;">
+            <div id="weekPageConfigureStationContainer" class="spaceBetweenFlex flexGap10">
+                <div class="width45px">
+                    <object class="width30px fillLightGray" data-src="assets/img/icons/Station.svg"></object>
+                </div>
+                <div class="width100percent">
+                    <select id="weekChartSelectStation" name="" class="height100percent width100percent" onchange="setActiveStation(this.value); updateWeeklyData();">
+                        <optgroup id="weekChartSelectWeekFavourites" label="Favoriten"></optgroup>
+                        <optgroup id="weekChartSelectWeekAll" label="Alle Stationen"></optgroup>
+                    </select>
+                </div>
+                <div class="clickable width45px" onclick="displayStationInformationFromSelecttag()">
+                    <object class="width30px fillDarkGray" data-src="assets/img/icons/Information.svg"></object>
+                </div>
+            </div>
+            <div id="weekPageConfigureDateContainer" class="spaceBetweenFlex flexGap10">
+                <div class="width45px">
+                    <object class="width30px fillLightGray" data-src="assets/img/icons/CalendarSmall.svg"></object>
+                </div>
+                <div id="datePickerWeekArea" class="width100percent">
+                    <input id="datePickerWeekInput" type="text" class="height100percent width100percent" onchange="updateWeeklyData(); disableNextLastWeekButtons();" />
+                </div>
+            </div>
+            <div id="weekPageConfigureDisplayContainer">
+                <button class="buttonColors buttonRadius clickable flexbox flexgap6 flexAlignItemsCenter" style="padding: 5px 10px; " onclick="openChartViewSettings('week')">
+                    <div>
+                        <object class="width20px" data-src="assets/img/icons/Settings.svg"></object>
+                    </div>
+                    <div>
+                        <span class="fontmedium">Einstellungen</span><br /><span class="fontthin">Ansicht</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

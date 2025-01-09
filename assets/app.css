@@ -1,0 +1,268 @@
+/* Tags */
+body {
+    margin: 0px;
+    /* overflow: hidden;
+    font-family: 'Poppins Medium'; */
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Poppins Bold';
+}
+
+/* IDs */
+#page-001-settings {
+    font-family: 'Poppins Medium';
+}
+
+#programContainer {
+    position: fixed;
+    top: 41;
+    left: 0;
+    padding: 5px;
+    height: calc(100% - 72px);
+    width: calc(100% - 10px);
+    overflow-y: auto;
+}
+
+#webview {
+    width: 100%;
+}
+
+#programMenuBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background-color: #f5ff00;
+    border-bottom: 1px solid #d4db01;
+}
+
+#programMenuBar .programMenuBarPart:first-child div {
+    border-right: 1px solid #d4db01;
+}
+
+#programMenuBar .programMenuBarPart:last-child div {
+    border-left: 1px solid #d4db01;
+}
+
+#programStatusBar {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #f5ff00;
+    border-bottom: 1px solid #d4db01;
+    color: #000000;
+    font-size: 9px;
+}
+
+#programStatusBarCode {
+    height: 10px;
+    width: 10px;
+}
+
+#programStatusBarTitle {
+    white-space: nowrap;
+}
+
+#programStatusBarURL,
+#programStatusBarSpacer {
+    font-family: 'Poppins Thin';
+    white-space: nowrap;
+}
+
+/* Classes: */
+.clickable {
+    cursor: pointer;
+}
+
+.buttonColors {
+    background-color: #f5ff00;
+    border: 1px solid #d4db01;
+}
+
+.buttonRadius {
+    border-radius: 5px;
+}
+
+.stationPoint {
+    height: 10px;
+    width: 10px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+.spaceBetweenFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fontThin {
+    font-family: 'Poppins Thin';
+}
+
+.fontMedium {
+    font-family: 'Poppins Medium';
+}
+
+.fontBold {
+    font-family: 'Poppins Bold';
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+.flexGap10 {
+    gap: 10px;
+}
+
+.flexGap6 {
+    gap: 6px;
+}
+
+.flexAlignItemsCenter {
+    align-items: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.width45px {
+    width: 45px;
+}
+
+.width30px {
+    width: 30px;
+}
+
+.width20px {
+    width: 20px;
+}
+
+.width100percent {
+    width: 100%;
+}
+
+.height100percent {
+    height: 100%;
+}
+
+.height22 {
+    height: 22px;
+}
+
+.leftAligned {
+    text-align: left;
+}
+
+.rightAligned {
+    text-align: right;
+}
+
+.zeroMargin {
+    margin: 0px;
+}
+
+.marginBottom40 {
+    margin-bottom: 40px;
+}
+
+.fillLightGray {
+    fill: #cccccc;
+}
+
+.fillDarkGray {
+    fill: #888888;
+}
+
+.settingsPartContainer {
+    margin-bottom: 42px;
+}
+
+.settingsPartTitle {
+    font-family: 'Poppins Bold';
+    text-align: center;
+}
+
+.transparentButton {
+    border-width: 0;
+    background-color: transparent;
+}
+
+.settingsLanguageButton,
+.settingsDatabaseConnectionNewButton {
+    width: 100px;
+    height: 60px;
+    background-color: #f5ff00;
+    border: 1px solid #d4db01;
+    border-radius: 5px;
+    font-family: 'Poppins Medium';
+}
+
+.settingsLanguageButtonIcon {
+    width: 60px;
+    margin: 10px 20px;
+}
+
+.menuBarButtonIcon.smallIcon {
+    height: 11px;
+    width: 11px;
+}
+
+.menuBarButtonIcon.mediumIcon {
+    height: 14px;
+    width: 14px;
+}
+
+.menuBarButtonIcon.largeIcon {
+    height: 21px;
+    width: 21px;
+}
+
+.menuBarHomeButtonIcon {
+    height: 27px;
+    width: 27px;
+}
+
+.menuButton {
+    width: 40px;
+    height:40px;
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.programMenuBarDragArea {
+    -webkit-app-region: drag;
+    cursor: move;
+    user-select: none;
+    width: 100%;
+}
+
+.programMenuBarPart {
+    display: flex;
+}
+
+.stroke10 {
+    stroke: black;
+    stroke-width: 10px;
+}

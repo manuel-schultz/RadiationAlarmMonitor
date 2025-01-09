@@ -1,0 +1,86 @@
+<html id="page-000-index">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/app.css">
+        <link rel="stylesheet" href="assets/toggle-switch.css">
+        <link rel="stylesheet" href="assets/fonts.css">
+        <link rel="stylesheet" href="assets/libraries/css/flatpickr.css">
+        <link rel="stylesheet" href="assets/libraries/css/flatpickr-plugin-monthSelect.css">
+        <link rel="stylesheet" href="assets/libraries/css/jquery-ui-extra.css">
+        <script src="assets/app.js"></script>
+        <script src="assets/libraries/js/jquery-ui-1.13.3.js"></script>
+        <script src="assets/libraries/js/chart.umd.js"></script>
+        <script src="assets/libraries/js/chartjs-plugin-annotation.min.js"></script>
+        <script src="assets/libraries/js/sweetalert2.min.js"></script>
+        <script src="assets/libraries/js/popper.min.js"></script>
+        <script src="assets/libraries/js/tippy.min.js"></script>
+        <script src="assets/libraries/js/flatpickr/flatpickr-de.js"></script>
+        <script src="assets/libraries/js/flatpickr/flatpickr.min.js"></script>
+        <script src="assets/libraries/js/flatpickr/flatpickr-plugin-monthSelect.js"></script>
+        <script src="assets/libraries/js/flatpickr/flatpickr-plugin-weekSelect.js"></script>
+
+    </head>
+
+    <body>
+        <div id="programMenuBar">
+            <div class="programMenuBarPart">
+                <div>
+                    <button class="menuButton" title="Settings" onclick="goToPath('views/settings.html')">
+                        <img class="menuBarButtonIcon smallIcon" src="assets/img/icons/Settings.svg" alt="Settings">
+                    </button>
+                </div>
+                <div>
+                    <button class="menuButton" title="Map" onclick="goToPath('views/map.html')">
+                        <img class="menuBarButtonIcon largeIcon" src="assets/img/icons/Map.svg" alt="Map">
+                    </button>
+                </div>
+                <div>
+                    <button class="menuButton" title="Day" onclick="goToPath('views/day.html')">
+                        <img class="menuBarButtonIcon mediumIcon" src="assets/img/icons/CalendarDay.svg" alt="Day">
+                    </button>
+                </div>
+                <div>
+                    <button class="menuButton" title="Week" onclick="goToPath('views/week.html')">
+                        <img class="menuBarButtonIcon mediumIcon" src="assets/img/icons/CalendarWeek.svg" alt="Week">
+                    </button>
+                </div>
+                <div>
+                    <button class="menuButton" title="Month" onclick="goToPath('views/month.html')">
+                        <img class="menuBarButtonIcon mediumIcon" src="assets/img/icons/CalendarMonth.svg" alt="Month">
+                    </button>
+                </div>
+                <div>
+                    <button class="menuButton" title="Year" onclick="processMenuBarYearButtonClick()">
+                        <img class="menuBarButtonIcon mediumIcon" src="assets/img/icons/CalendarYear.svg" alt="Year">
+                    </button>
+                </div>
+            </div>
+            <div class="programMenuBarDragArea"></div>
+            <div class="programMenuBarPart">
+                <div>
+                    <button class="menuButton" onclick="processMenuBarMinimizeButtonClick()">
+                        <img class="menuBarButtonIcon smallIcon" src="assets/img/icons/Minimize.svg" alt="">
+                    </button>
+                </div>
+                <div>
+                    <button class="menuButton" onclick="processMenuBarMaximizeButtonClick()">
+                        <img class="menuBarButtonIcon smallIcon" src="assets/img/icons/Maximize.svg" alt="">
+                    </button>
+                </div>
+                <div>
+                    <button class="menuButton" onclick="processMenuBarCloseButtonClick()">
+                        <img class="menuBarButtonIcon smallIcon" src="assets/img/icons/Close.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="programContainer">
+        </div>
+        <div id="programStatusBar">
+            <span id="programStatusBarUpdatedAtText">Letzte Aktualisierung: </span>
+            <span id="programStatusBarUpdatedAtValue">22.07.1999</span>
+            <span id="programStatusBarSpacer">·</span>
+            <span id="programStatusBarURL"></span>
+        </div>
+    </body>
+</html>

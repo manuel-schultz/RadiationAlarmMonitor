@@ -1,0 +1,20 @@
+{
+  "name": "radiationalarmmonitor",
+  "version": "1.0.0",
+  "description": "Viewing the Data from the national radiation Monitoring System",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Manuel Schultz <manuel@schultz.ch>",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.1",
+    "@mapbox/node-pre-gyp": "^1.0.11",
+    "flatpickr": "^4.6.13",
+    "jquery": "^3.7.1",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "tippy.js": "^6.3.7"
+  }
+}

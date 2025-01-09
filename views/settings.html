@@ -1,0 +1,84 @@
+<script src="assets/settings.js"></script>
+
+<div id="page-001-settings">
+    <div class="settingsPartContainer">
+        <div class="settingsPartTitle">Sprache:</div>
+        <i>COMING SOON</i>
+        <div id="settingsLanguageContainer" class="spaceBetweenFlex">
+            <div class="settingsLanguageButton">
+                <img class="settingsLanguageButtonIcon" src="assets/img/icons/flags/lanDE.svg" alt="German">
+            </div>
+            <div class="settingsLanguageButton">
+                <img class="settingsLanguageButtonIcon" src="assets/img/icons/flags/lanEN.svg" alt="English">
+            </div>
+            <div class="settingsLanguageButton">
+                <img class="settingsLanguageButtonIcon" src="assets/img/icons/flags/lanES.svg" alt="Spanish">
+            </div>
+            <div class="settingsLanguageButton">
+                <img class="settingsLanguageButtonIcon" src="assets/img/icons/flags/lanFR.svg" alt="French">
+            </div>
+            <div class="settingsLanguageButton">
+                <img class="settingsLanguageButtonIcon" src="assets/img/icons/flags/lanIT.svg" alt="Italian">
+            </div>
+        </div>
+    </div>
+    <div class="settingsPartContainer">
+        <div class="settingsPartTitle">Datenbankverbindung:</div>
+        <div>
+            <div id="settingDatabaseConnectionNewContainer" class="spaceBetweenFlex">
+                <button class="settingsDatabaseConnectionNewButton" onclick="$('#settingDatabaseConnectionNewContainer').addClass('hidden'); $('#settingDatabaseConnectionNewLocalContainer').removeClass('hidden');">Lokal</button>
+                <button class="settingsDatabaseConnectionNewButton">Online<br /><i>COMING SOON</i></button>
+            </div>
+            <div id="settingDatabaseConnectionNewLocalContainer" class="hidden">
+                <span>Wo liegt deine Datenbank?</span>
+                <input type="file" accept=".sqlite3" onchange="saveDatabaseConnection('local');">
+            </div>
+        </div>
+    </div>
+    <div class="settingsPartContainer">
+        <div class="settingsPartTitle">Startseite:</div>
+        <i>COMING SOON</i>
+        <div>
+            <div>Letzte Seite</div>
+            <div>Karte</div>
+            <div>Tag</div>
+            <div>Woche</div>
+            <div>Monat</div>
+            <div>Jahr</div>
+            <div>Einstellungen</div>
+        </div>
+    </div>
+    <div class="settingsPartContainer">
+        <div class="settingsPartTitle">Kartensymbole:</div>
+        <div>
+            <div>Sollen auf der Karte Symbole oder Quadrate angezeigt werden?</div>
+            <div class="flexbox">
+                <input type="radio" id="mapmarkersTrue" name="mapmarkers" value="true" onchange="saveMapMarker()" />
+                <label for="mapmarkersTrue">
+                    <img src="assets/img/icons/Waypoint Red.svg" style="height: 25px;">
+                    Symbole
+                </label>
+            </div>
+            <div class="flexbox">
+                <input type="radio" id="mapmarkersFalse" name="mapmarkers" value="false" onchange="saveMapMarker()" />
+                <label class="flexbox flexGap6" for="mapmarkersFalse" style="align-items: center;">
+                    <div class="stationpoint" style="background-color: #ff0000;"></div>
+                    Quadrate
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="settingsPartContainer">
+        <div class="settingsPartTitle">Benachrichtigungseinstellungen:</div>
+        <i>COMING SOON</i>
+    </div>
+    <div class="settingsPartContainer">
+        <div class="settingsPartTitle">Favoritisierte Messstationen:</div>
+        <i>COMING SOON</i>
+    </div>
+    <div class="settingsPartContainer">
+        <div class="settingsPartTitle">Lokale Dateien:</div>
+        <i>COMING SOON</i>
+        Lokale Einstellungen anzeigen
+    </div>
+</div>

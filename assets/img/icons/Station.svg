@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <ellipse style="" cx="250" cy="51.916" rx="50" ry="50"/>
+  <rect style="transform-origin: 250px 50px;" x="240" y="50" width="20" height="500" rx="10" ry="10" transform="matrix(0.882947, 0.469472, -0.469472, 0.882947, -0.000132, 1.915749)"/>
+  <rect style="transform-origin: 250px 50px;" x="240" y="50" width="20" height="500" rx="10" ry="10" transform="matrix(0.882947, -0.469472, 0.469472, 0.882947, -0.000072, 1.915458)"/>
+  <rect style="transform-box: fill-box; transform-origin: 50% 50%;" x="151" y="180" width="200" height="20" rx="10" ry="10" transform="matrix(0.898794, 0.438371, -0.438371, 0.898794, 19.432748, 16.096224)"/>
+  <rect style="transform-box: fill-box; transform-origin: 50% 50%;" x="269.622" y="287.143" width="369.326" height="20" rx="10" ry="10" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -252.067806, 52.647199)"/>
+  <rect style="transform-origin: 251px 190px;" x="151" y="180" width="200" height="20" rx="10" ry="10" transform="matrix(0.898794, -0.438371, 0.438371, 0.898794, -23.634502, 21.348365)"/>
+  <rect style="transform-origin: 454.285px 297.143px;" x="269.622" y="287.143" width="369.326" height="20" rx="10" ry="10" transform="matrix(0.866025, 0.5, -0.5, 0.866025, -156.068405, 52.647398)"/>
+</svg>

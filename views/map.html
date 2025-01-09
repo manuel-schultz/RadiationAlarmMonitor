@@ -1,0 +1,50 @@
+<script src="assets/map.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+
+
+<div id="page-002-map">
+    <div class="marginBottom40">
+        <div id="mapStationsContainer" style="height: 0px; width: 0px;"></div>
+        <img class="mapForRecalculatingMarkerPositions" src="assets/img/map-AT.png" style="max-width: 100%;">
+    </div>
+    <div>
+        <div class="flexbox flexGap10 marginBottom40" style="align-items: center;">
+            <div>
+                <button id="chartLastButton" class="clickable height100percent transparentButton width45px" onclick="changeHour(-1)">
+                    <object class="width20px" data-src="assets/img/icons/ArrowLeftSmall.svg"></object>
+                </button>
+            </div>
+            <div>
+                <object class="width30px fillLightGray" data-src="assets/img/icons/Clock.svg"></object>
+            </div>
+            <div class="width100percent">
+                <div id="timeSlider"></div>
+                <input id="timeSliderHiddenStorage" type="hidden">
+                <div><span id="hourIndicator">xx</span>:00</div>
+            </div>
+            <div>
+                <button id="chartNextButton" class="clickable height100percent transparentButton width45px" onclick="changeHour(1)">
+                    <object class="width20px" data-src="assets/img/icons/ArrowRightSmall.svg"></object>
+                </button>
+            </div>
+        </div>
+        <div id="mapPageConfigureDateContainer" class="spaceBetweenFlex flexGap10 marginBottom40">
+            <div>
+                <button id="dateLastButton" class="clickable height100percent transparentButton width45px" onclick="changeDate(1)">
+                    <object class="width20px" data-src="assets/img/icons/ArrowLeftSmall.svg"></object>
+                </button>
+            </div>
+            <div>
+                <object class="width30px fillLightGray" data-src="assets/img/icons/CalendarSmall.svg"></object>
+            </div>
+            <div id="datePickerDayArea" class="width100percent">
+                <input id="datePickerDayInput" type="text" class="height100percent width100percent" onchange="disableNextLastDateButtons(); updateMapData();" />
+            </div>
+            <div>
+                <button id="dateNextButton" class="clickable height100percent transparentButton width45px" onclick="changeDate(-1)">
+                    <object class="width20px" data-src="assets/img/icons/ArrowRightSmall.svg"></object>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

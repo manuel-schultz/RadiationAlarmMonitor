@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 320 500" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <polyline style="fill: none; vector-effect: non-scaling-stroke; stroke-width: 40px; stroke-linecap: round; stroke-linejoin: round;" points="399.685 0 100 250 400 499.825"/>
+  <path d="M 5.356 6.659 C 11.91 -1.198 23.59 -2.252 31.447 4.3 C 31.447 4.3 216.57 158.585 309.022 235.856 C 322.395 247.033 322.824 252.974 309.205 264.316 C 216.589 341.456 31.142 495.711 31.142 495.711 C 23.281 502.257 11.6 501.191 5.053 493.329 C -1.493 485.468 -0.428 473.788 7.435 467.241 L 268.222 250.07 L 7.713 32.75 C -0.142 26.197 -1.198 14.515 5.356 6.659 Z" style="transform-origin: 160px 250.001px;"/>
+</svg>
