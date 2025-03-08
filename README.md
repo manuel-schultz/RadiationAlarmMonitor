@@ -14,12 +14,3 @@
 
 # Credits
 Fonts: Poppins by Indian Type Foundry, Jonny Pinhorn, Ninad Kale ([Google Fonts](https://fonts.google.com/specimen/Poppins))
-
-
-# TODO
-* Zeitzonen berichtigen 1Uhr ist vortag
-* Bei Map die Stationposition bei der infocard nicht an die erste map anpassen, sondern an die zweite. also so irgendwie uuid mäßig.
-* Einstellungsseite scrolling verdeckt die Topbar.
-* > In die Anzeigeeinstellungen der Grafiken eine Einstellung Mindestwert MaxWert mit Default auto
-* Navigation mit Pfeiltasten
-* BlackoutCovert-Mode (Darkmode)
